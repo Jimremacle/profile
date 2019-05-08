@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Raleway');
+
+img {
+  width: 150px;
+  transform: rotate(90deg);
+  margin: 10px;
+  border-radius: 5px;
+  border-radius: 50%;
+}
+
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+
+}
+
+#blabla {
+  margin-top: -5px;
+}
+
+body {
+  font-family: 'Raleway', medium;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.twitter {
+ color: #5ca0d3;
+}
+
+.link{
+  color: #0c084c;
+}
+
+.face{
+  color: #010059;
+}
+
+.social:hover {
+  color: #455d7a;
+}
+
+.social {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+a:hover {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #7fa99b;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.cadre {
+    width: 750px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px auto;
+    text-align: center;
+    border-top: 10px;
+}
+
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 7px;
+}
+
+#myself {
+  padding: 30px
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .cadre {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .cadre {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .cadre {
+    width: 300px;
+  }
+}
